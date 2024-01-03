@@ -1,0 +1,35 @@
+.main_container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, 2fr); */
+  grid-gap: 20px;
+  grid-template-areas:
+    "showcase showcase top_box_a"
+    "showcase showcase top_box_b";
+  margin-top: 20px;
+}
+.showcase {
+  grid-area: showcase;
+  background-image: url("./images/generate-fast-food-hotel-background.png");
+  background-size: cover;
+  min-height: 600px;
+}
+.top_box_a {
+  display: grid;
+  background-image: url("./images/chinses-dish.png");
+  background-size: cover;
+  background-position: center;
+  grid-area: top_box_a;
+  background-color: rgb(6, 6, 21);
+}
+.top_box_b {
+  display: grid;
+  background-image: url("./images/cooking-chinses-dish-989846935.png");
+  background-size: 100% 100%;
+  background-position: right top;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  grid-area: top_box_b;
+  background-color: rgb(20, 20, 228);
+}

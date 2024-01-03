@@ -1,0 +1,12 @@
+.dashboard_main_section {
+  width: 80%;
+  box-sizing: border-box;
+  background: rgb(9, 9, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 63, 1) 59%,
+    rgba(16, 33, 128, 1) 100%
+  );
+  margin: 10px 10px 0px 10px;
+  border-radius: 5px;
+}
