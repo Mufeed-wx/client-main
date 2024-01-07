@@ -1,6 +1,6 @@
 import React from "react";
 import sty from "./style.module.css";
-import Layout from "../../components/user/Layout";
+import Layout from "../../component/user/Layout";
 
 const Login = () => {
   return (

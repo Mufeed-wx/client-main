@@ -1,5 +1,5 @@
 import React from "react";
-import sty from "./style.module.css";
+// import sty from "./style.module.css";
 import Navbar from "./Navbar";
 const Layout = ({ children }) => {
   return (

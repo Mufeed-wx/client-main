@@ -5,18 +5,18 @@
   font-family: "poppins", sans-serif;
 }
 :root {
-  --primary-color: #43035c;
+  --primary-color: rgb(0, 0, 63);
   --second-color: #040005;
   --black-color: #e2d5d5;
 }
 
-body {
+/* body {
   background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 a {
   text-decoration: none;
   color: var(--second-color);
@@ -30,7 +30,11 @@ a:hover {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: linear-gradient(
+    90deg,
+    rgba(0, 0, 63, 1) 59%,
+    rgba(2, 7, 33, 1) 100%
+  );
 }
 .login_box {
   position: relative;

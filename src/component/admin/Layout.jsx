@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../pages/admin/Navbar";
-import Sidebar from "../../pages/admin/Sidebar";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 import sty from "./style.module.css";
 const Layout = ({ children }) => {
   return (

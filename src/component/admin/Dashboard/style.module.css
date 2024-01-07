@@ -1,5 +1,5 @@
 .dashboard_main_section {
-  width: 80%;
+  min-width: 85%;
   box-sizing: border-box;
   background: rgb(9, 9, 63);
   background: linear-gradient(
@@ -9,4 +9,12 @@
   );
   margin: 10px 10px 0px 10px;
   border-radius: 5px;
+  min-height: 90vh;
+}
+
+@media only screen and (max-width: 564px) {
+  .dashboard_main_section {
+    width: 100%;
+    margin: 5px 5px 0px 5px;
+  }
 }
